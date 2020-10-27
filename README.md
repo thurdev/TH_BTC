@@ -12,7 +12,6 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
 
 
 
@@ -107,7 +106,9 @@ If you want to edit the code clone the repo, and import on intellij as a project
 
 ### Installation
 
-1. Get the lastest version [here](https://example.com)
+1. Clone this repo
+2. Import on Intellij IDEA
+3. Build the .jar file
 
 ## Contributing
 
@@ -138,5 +139,3 @@ Your Name - [@thurdev](https://twitter.com/thurdev) - britesarthur@gmail.com
 [stars-url]: https://github.com/thurdev/TH_BTC/stargazers
 [issues-shield]: https://img.shields.io/github/issues/thurdev/TH_BTC.svg?style=flat-square
 [issues-url]: https://github.com/thurdev/TH_BTC/issues
-[license-shield]: https://img.shields.io/github/license/thurdev/TH_BTC.svg?style=flat-square
-[license-url]: https://github.com/thurdev/TH_BTC/blob/master/LICENSE.txt
