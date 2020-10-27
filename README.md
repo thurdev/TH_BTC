@@ -41,13 +41,10 @@ Download this plugin to your server and start rewarding players with (fake) bitc
 Everything is configurable, and choose where you want to save MySQL or in SQLite.
 
 Includes:
-* 🛒 Black markets
-* 🚀 Booster multipliers
-* ⛏️ Different earnings based on player pickaxe.
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
-
-A list of commonly used resources that I find helpful are listed in the acknowledgements.
+* 🛒 Black markets, buy items
+* 📊 Stockmarket, buy and sell bitcoin (BITCOIN PRICE BASED ON CONFIG EUR,USD Etc...)
+* 🚀 Booster multipliers, multiply your earnings
+* ⛏️ Different earnings based on player pickaxe, earn different amount by mining different blocks.
 
 ### Built With
 * [Java](https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR)
