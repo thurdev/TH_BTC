@@ -54,7 +54,7 @@ Includes:
 
 ### Commands
 
-```bash
+```
 /blackmarket
   description: Open blackmarket gui
   aliases: bm
