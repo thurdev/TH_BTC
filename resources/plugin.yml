@@ -1,0 +1,28 @@
+name: TH_BTC
+version: 1.0
+main: com.thur.btc.Main
+author: Thur
+depend:
+  - Vault
+commands:
+  blackmarket:
+    description: Open blackmarket menu
+    aliases: [bm]
+  btc:
+    description: Open btc info menu
+  bolsa:
+    description: Open bolsa de valores menu
+  setbtc:
+    description: Set player btc
+  addbtc:
+    description: Add player btc
+  removebtc:
+    description: Remove player btc
+  btchelp:
+    description: Help command
+  btctop:
+    description: Open top btc menu
+  btcboost:
+    description: Give player a BTC Miner Booster
+  boost:
+    description: Show if has any booster active

@@ -1,0 +1,155 @@
+#   _____   _   _           ____    _____    ____
+#  |_   _| | | | |         | __ )  |_   _|  / ___|
+#   | |   | |_| |         |  _ \    | |   | |
+#  | |   |  _  |         | |_) |   | |   | |___
+# |_|   |_| |_|  _____  |____/    |_|    \____|
+#             |_____|
+
+LICENSE_KEY: XXXXXXXXXXXXX
+
+###
+### PRECISA DE AJUDA COM ALGO ?
+### Discord: Thur#8687
+###
+
+###
+### RECOMENDO SÓ NÃO ALTERAR O VALOR DA MOEDA DE 'USD' PRA 'BRL', SE FOR ALTERAR ALTERE, MAS NÃO LANCE O SERVIDOR E ALTERE OS VALORES
+### NA MINHA OPNIÃO PODE ESTRAGAR A ECONOMIA, 1 BTC VALE POR EXEMPLO 8 MIL DOLARES, E 1 BTC VALE 48 MIL REAIS, EM TERMOS DE VALORES
+### É DESPROPORCIONAL.
+###
+
+###
+### Permissões
+### /stonks - thbtc.stonks
+### /btc - thbtc.btc
+### /convert - thbtc.convert
+### /blackmarket | /bm - thbtc.blackmarket
+### /bolsa - thbtc.bolsa
+### /setbtc - thbtc.admin
+### /addbtc - thbtc.admin
+### /removebtc - thbtc.admin
+###
+
+mysql:
+  active: true
+  host: 127.0.0.1
+  port: 3306
+  user: root
+  pass: ''
+  db: btc
+
+btc_options:
+  currency: 'BRL'
+
+mine_btc:
+  block_that_give_btc:
+    - DIRT
+    - GRASS
+    - STONE
+  mine_options:
+    special_item_to_mine_btc: true
+    special_item:
+      - DIAMOND_PICKAXE
+  got_btc:
+    actionbar_message: "&e[BTC] &a[+] {btc_wons}"
+
+###
+### COMMANDS
+###
+
+### /btc
+btc_cmd:
+  permission: true # thbtc.btc
+
+### /bolsa
+bolsa_cmd:
+  permission: true # thbtc.bolsa
+
+### /btctop
+btctop_cmd:
+  permission: true # thbtc.top
+
+### BOOSTERS
+boosters:
+  '1':
+    name: "&eGT 740"
+    multiply: "x2" # MULTIPLICA O GANHO POR 2X
+    work_time: 60 # 1 MINUTO - COLOCA EM SEGUNDOS....
+    lore:
+      - "&r"
+      - "&b » &fBooster {multiply} "
+      - "&b » &fTempo {work_time}s "
+      - "&r"
+  '2':
+    name: "&eGTX 1080 TI"
+    multiply: "x4" # MULTIPLICA O GANHO POR 2X
+    work_time: 120 # 2 MINUTO - COLOCA EM SEGUNDOS....
+    lore:
+      - "&r"
+      - "&b » &fBooster {multiply} "
+      - "&b » &fTempo {work_time}s "
+      - "&r"
+  '3':
+    name: "&eRTX 2080 TI"
+    multiply: "x6" # MULTIPLICA O GANHO POR 2X
+    work_time: 240 # 4 MINUTOS - COLOCA EM SEGUNDOS....
+    lore:
+      - "&r"
+      - "&b » &fBooster {multiply} "
+      - "&b » &fTempo {work_time}s "
+      - "&r"
+
+### /blackmarket | /bm
+black_market:
+  name: "&5Mercado Negro"
+  permission: true # thbtc.blackmarket
+  itens:
+    '1':
+      slot: 10
+      name: "&b• Legendary Sword •"
+      type: "ITEM"
+      material: DIAMOND_SWORD
+      lore:
+        - "&r"
+        - "&a » &7Valor: &6{price}"
+        - "&a » &7Valor em Money: &a{currency_symbol}{converted_price}"
+        - "&r"
+      price: 0.0000007
+      has_enchant: true
+      give_item:
+        name: "&b• Legendary Sword •"
+        material: DIAMOND_SWORD
+        lore:
+          - "&r"
+          - "&a » &eType: LEGENDARY"
+          - "&r"
+        enchant_options:
+          has_enchant: true
+          enchant:
+            - "DAMAGE_ALL:5"
+    '2':
+      slot: 11
+      name: "&5Caixa Misteriosa"
+      type: "CMD"
+      material: ENDER_CHEST
+      lore:
+        - "&r"
+        - "&a » &7Valor: &6{price}"
+        - "&a » &7Valor em Money: &a{currency_symbol}{converted_price}"
+        - "&r"
+      price: 0.0000010
+      has_enchant: true
+      command: "givecaixa 1 1 {player}"
+    '3':
+      slot: 12
+      name: "&eRTX 2080 TI"
+      type: "BOOSTER"
+      booster_id: 3
+      material: EXP_BOTTLE
+      lore:
+        - "&r"
+        - "&a » &7Valor: &6{price}"
+        - "&a » &7Valor em Money: &a{currency_symbol}{converted_price}"
+        - "&r"
+      price: 0.0005
+      has_enchant: true
