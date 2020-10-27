@@ -45,13 +45,56 @@ Includes:
 * 📊 Stockmarket, buy and sell bitcoin (BITCOIN PRICE BASED ON CONFIG EUR,USD Etc...)
 * 🚀 Booster multipliers, multiply your earnings
 * ⛏️ Different earnings based on player pickaxe, earn different amount by mining different blocks.
+* 🏆 The top 5 players with more btc are shown at /top command.
 
 ### Built With
 * [Java](https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR)
 * [Maven](https://search.maven.org)
 * [Intellij IDEA](https://www.jetbrains.com/idea/)
 
+### Commands
 
+```
+/blackmarket
+  description: Open blackmarket gui
+  aliases: bm
+```
+```
+/btc
+  description: Open btc info gui
+```
+```
+/bolsa
+  description: Open stockmarket gui
+```
+```
+/setbtc 
+  description: Set player btc
+```
+```
+/addbtc
+  description: Add player btc
+```
+```
+/removebtc
+  description: Remove player btc
+```
+```
+/btchelp
+  description: Help command
+```
+```
+/btctop
+  description: Open top btc gui
+```
+```
+/btcboost
+  description: Give player a BTC Miner Booster
+```
+```
+/boost
+  description: Show if has any booster active
+```
 
 
 ## Getting Started
