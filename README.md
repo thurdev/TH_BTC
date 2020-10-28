@@ -127,7 +127,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@thurdev](https://twitter.com/thurdev) - britesarthur@gmail.com
+Arthur Brites - [@thurdev](https://twitter.com/thurdev) - britesarthur@gmail.com
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
